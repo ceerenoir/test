@@ -8,6 +8,7 @@ package javaapplication4;
  *
  * @author Student
  */
+
 public class JavaApplication4 {
 
     /**
@@ -15,6 +16,10 @@ public class JavaApplication4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("OK");
+        Cd cd1 = new Cd();
+        cd1.setTitle("Plyta");
+        cd1.setYear(2005);
+        
+        System.out.println(cd1);
     }
 }
